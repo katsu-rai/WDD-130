@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Unbounded&display=swap");
+
 #content {
   max-width: 1600px;
   margin: 0 auto;
@@ -23,6 +26,14 @@ main section {
 body {
   background-color: #396e94;
   color: white;
+  font-family: Lato, Helvetica, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
 }
 
 header {
@@ -33,15 +44,21 @@ nav a {
   text-align: center;
   color: white;
   text-decoration: none;
+  padding: 35px;
 }
 
 nav a:hover {
   background-color: white;
 }
 
+.icon {
+  padding-top: 10px;
+}
+
 .book,
 .join {
   background-color: #396e94;
+  padding: 15px 30px;
 }
 
 .book:hover,
@@ -57,11 +74,15 @@ nav a:hover {
 .msg p {
   background-color: #396e94;
   color: white;
+  padding-bottom: 15px;
 }
 
 footer {
   background-color: #8cba80;
   color: white;
+  padding: 25px 50px;
+  padding-top: 15px;
+  margin-top: 200px;
 }
 
 footer a {
@@ -78,14 +99,30 @@ footer p a:hover {
   text-decoration: underline;
 }
 
+.social img {
+  padding-top: 15px;
+}
+
 .home-title {
   color: white;
+  margin-top: 10px;
 }
 
 .book,
 .join {
   color: white;
   text-decoration: none;
+  margin-top: 50px;
+  font-size: 18px;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
+.card-img {
+  border: 10px solid #d9c2a3;
+}
+main section img {
+  box-sizing: border-box;
 }
 
 .book:hover,
@@ -98,6 +135,26 @@ footer p a:hover {
   width: 80px;
 }
 
+#logo_link {
+  padding-top: 5px;
+}
+
 #hero-img {
   width: 100%;
+}
+
+.home-title {
+  font-family: "Unbounded", sans-serif;
+  font-size: 2em;
+}
+
+.msg {
+  line-height: 1.5em;
+  padding: 35px;
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+  margin: 200px 0;
 }
