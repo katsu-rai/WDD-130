@@ -1,0 +1,1778 @@
+@charset "UTF-8";
+
+* {
+    line-height: 1em;
+}
+
+@font-face {
+  font-family: "はんなり明朝";
+  src: url("../fonts/HannariMincho-Regular.woff") format("woff");
+  font-weight: normal;
+}
+
+.hannari {
+    font-family: "はんなり明朝";
+}
+
+@font-face {
+  font-family: "のとさんミディアム";
+  src: url("../fonts/NotoSansJP-Medium.woff") format("woff");
+  font-weight: normal;
+}
+
+.notosans {
+    font-family: "のとさんミディアム";
+}
+
+@font-face {
+  font-family: "フィロソファー";
+  src: url("../fonts/Philosopher-Regular.woff") format("woff");
+  font-weight: normal;
+}
+
+.philosopher {
+    font-family: "フィロソファー"
+}
+
+@font-face {
+    font-family: "原真ゴシック";
+    src: url("../fonts/GenShinGothic-Medium.woff") format("woff");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "原真ゴシックB";
+    src: url("../fonts/GenShinGothic-Bold.woff") format("woff");
+    font-weight: normal;
+}
+
+.underline {
+    background-image: linear-gradient(transparent 80%, #B391A2 0);
+}
+
+.pc-display-none {
+    display: none;
+}
+
+select {
+    -moz-appearance: menulist-button;
+    -webkit-appearance: menulist-button;
+    appearance: menulist-button;
+}
+
+#main-head {
+    background-image: url("../img/header.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 66.6178624vw;
+    padding: 0;
+    margin: 0;
+}
+
+#main-pr {
+    font-size: 5.12445095168vw;
+    color: #63977E;
+    font-weight: normal;
+}
+
+#des-pr {
+    font-size: 2.04978038vw;
+    margin-top: 0.52vw;
+}
+
+.container-main {
+    position: absolute;
+    top: 5.34407027818vw;
+    right: 6.44216691069vw;
+
+}
+
+.pc-underline-pr {
+    background-image: linear-gradient(transparent 80%, #B391A2 0);
+}
+
+.sp-br{
+    display: none;
+}
+
+.sample-pr {
+    position: absolute;
+    top: 22.4011713vw;
+    right: 12.2254758vw;
+    width: 28.5505124vw;
+    height: 26.8667643vw
+}
+
+.des-pr2 {
+    position: absolute;
+    top: 52.7452452416vw;
+    right: 1.99853587vw;
+}
+
+.pr1 {
+    font-family: "フィロソファー";
+    font-size: 2.48901903vw;
+    width: 5.5vw;
+    padding: 0;
+    margin: 0;
+}
+
+.pr2 {
+    font-family: "のとさんミディアム";
+    font-size: 2.48901903vw;
+    display: inline-block;
+    /*height: 3.2vw;*/
+    padding: 0;
+    margin: 0;
+}
+
+.pr2-border-none {
+    font-family: "のとさんミディアム";
+    font-size: 2.48901903vw;
+    display: inline-block;
+    width: 12.665vw;
+    padding: 0;
+    margin: 0;
+}
+
+.pr3 {
+    font-family: "はんなり明朝";
+    font-size: 3.2942899vw;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.pr3-border-none {
+    font-family: "はんなり明朝";
+    font-size: 3.2942899vw;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+#instagram {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.instagram-logo {
+    width: 65.8125915vw;
+    height: 8.34553442vw;
+    margin: 0 auto;
+}
+
+#instagram-content {
+    width: 79.2093vw;
+    margin: 0 auto;
+    padding-top: 2.7818448vw;
+    padding-bottom: 4.245973vw;
+}
+
+.insta-p {
+    font-size: 2.49vw;
+    width: 50.07vw;
+    height: 3.587vw;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.insta-li {
+    width: 12.59vw;
+    height: 37.848vw;
+    border: solid 1px #A9A9A9;
+}
+
+.insta-li-sample {
+    width: 100%;
+    height: 12.59vw;
+}
+
+.insta-li-profile {
+    width: 6.6098vw;
+    height: 2.1962vw;
+    position: relative;
+    top: -0.2196vw;
+    left: 0.732vw;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5vw;
+}
+
+.insta-li-icon {
+    width: 2.1962vw;
+    height:2.1962vw;
+    
+}
+
+.insta-li-profile-p {
+    font-size: 1.11713vw;
+    padding: 0;
+    margin: 0;
+    line-height: 2vw;
+}
+
+.insta-li-text {
+    font-size: 1.1713vw;
+    width: 11.049vw;
+    height: 16.0329vw;
+    text-align: initial;
+    position: relative;
+    top: 0.8vw;
+    right: -0.7vw;
+    overflow: hidden;
+    line-height: 1.61054vw;
+}
+
+.insta-li-date {
+    font-size: 1.1713vw;
+    position: relative;
+    top: 2vw;
+    right: -2vw;
+}
+
+.insta-ul {
+    width: 79.1093vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    list-style: none;
+    margin-top: 2.269720vw;
+}
+
+#campaing {
+    background-image: url("../img/cv.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 59.8828697vw;
+    position: relative;
+}
+
+.campaing-ribbon {
+    width: 69.253vw;
+    height: 9.101vw;
+    position: absolute;
+    top: 4.4656vw;
+    left: 15.373vw;
+}
+
+.sample {
+    width: 29.356vw;
+    position: absolute;
+    top:18.594vw;
+    left: 10.322vw;
+}
+
+.campaing-p {
+    position: absolute;
+    bottom: 8.8042vw;
+    left: 14.004vw;
+    font-size: 2.0498vw;
+}
+
+.campaing-p2 {
+    position: absolute;
+    top: 18.821vw;
+    right: 9.179vw;
+    font-size: 4.062vw;
+}
+
+.campaing-p3 {
+    font-size: 2.05vw;
+    position: absolute;
+    top: 22.775vw;
+    right: 31.75vw;
+}
+
+.purchase {
+    border-top: solid 1px #91B3A2;
+    width: 46.486vw;
+    height: 22.117vw;
+    position: absolute;
+    top: 27.452vw;
+    right: 9.029vw;
+}
+
+.price-normal {
+    font-size: 1.977vw;
+    position: absolute;
+    top: 2.57vw;
+    text-decoration: line-through;
+    font-family: "フィロソファー","のとさんミディアム";
+}
+
+.price-des {
+    font-size: 2.196vw;
+    position: absolute;
+    top: 5.644vw;
+}
+
+.price-discounted {
+    color: red;
+    font-size: 7.906vw;
+    position: absolute;
+    top: 1.164vw;
+    right: 7vw;
+}
+
+.yen {
+    font-size: 3.806vw;
+}
+
+.tax {
+    font-size: 1.977vw;
+    position: absolute;
+    top: 6.083vw;
+    right: 0vw;
+}
+
+.purchase-button {
+    position: absolute;
+    top: 12vw;
+    width: 100%;
+    height: 7.467vw;
+    background: linear-gradient(#AFC8BB, #91B3A2);
+    font-size: 3.734vw;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 0.512vw;
+    padding-top: 1.867vw;
+}
+
+.cancel {
+    font-size: 3vw;
+    color: #BC0000;
+    position: absolute;
+    top: 20.505vw;
+}
+
+.cancel-des {
+    font-size: 2.123vw;
+    position: absolute;
+    top: 25.117vw;
+}
+
+.wrapper-empathy {
+    background-image: url("../img/empathy.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 60vw;
+    position: relative;
+}
+
+.empathy-p {
+    font-size: 5.417vw;
+    position: absolute;
+    top: 7.865vw;
+    left: 9.531vw;
+    color: #63977E;
+}
+
+.empathy-ul {
+    position: absolute;
+    top: 19.927vw;
+    left: 10.17vw;
+}
+
+.empathy-li::before {
+    content: "";
+    display: inline-block;
+	width: 2.05vw;
+	height: 1.9vw;
+    background-image: url("../img/check.png");
+    background-size: contain;
+    
+}
+
+.empathy-li {
+    font-size: 2vw;
+    line-height: 6.369vw;
+    list-style: none;
+}
+
+.empathy-li-else {
+    font-size: 2vw;
+    line-height: 6.369vw;
+    list-style: none;
+}
+
+.wrapper-exhibit1 {
+    background-image: url("../img/exhibit1.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 44.51vw;
+    position: relative;
+}
+
+.exhibit1-p {
+    position: absolute;
+    top: 3.997vw;
+    left: 9.846vw;
+    font-size: 3.514vw;
+    color: #63977E;
+    height: 4.196vw;
+    background-image: linear-gradient(transparent 75%, #B391A2 0);
+}
+
+.wrapper-exhibit1-text {
+    position: absolute;
+    top: 11.442vw;
+    left: 10.059vw;
+}
+
+.exhibit-text {
+    font-size: 1.98vw;
+    padding-bottom: 2.782vw;
+    line-height: 1.4;
+}
+
+.exhibit-sample1 {
+    width: 29.868vw;
+    height: 19.912vw;
+    position: absolute;
+    top: 11.42vw;
+    right: 10.102vw;
+}
+
+.exhibit-arrow {
+    width: 23.865vw;
+    height: 7.906vw;
+    position: absolute;
+    right: 38.067vw;
+    bottom: 0;
+    z-index: 1;
+}
+
+.wrapper-exhibit {
+    position: relative;
+    height: 81vw;
+}
+
+.wrapper-exhibit2 {
+    background-image: url("../img/exhibit2.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 40.89vw;
+    position: absolute;
+    top: 40.63vw;
+}
+
+.exhibit2-p {
+    position: absolute;
+    top: 6.559vw;
+    left: 9.846vw;
+    font-size: 3.514vw;
+    color: #63977E;
+    height: 4.196vw;
+    background-image: linear-gradient(transparent 75%, #B391A2 0);
+}
+
+.exhibit2-sample2 {
+    width: 29.868vw;
+    height: 19.912vw;
+    position: absolute;
+    top: 14.056vw;
+    left: 10.029vw;
+}
+
+.wrapper-exhibit2-text {
+    position: absolute;
+    top: 14.15vw;
+    right: 10.204vw;
+}
+
+#campaing2 {
+    background-image: url("../img/cv.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 59.8828697vw;
+    position: relative;
+}
+
+#wrapper-benefit {
+    background-image: url("../img/benefit.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 145.022vw;
+    position: relative;
+}
+
+.benefit-title {
+    font-size: 4.978vw;
+    position: absolute;
+    top: 6.94vw;
+    right: 16.881vw;
+    color: #63977E;
+}
+
+.benefit-h2-font {
+    font-family: "はんなり明朝";
+    font-size: 3.514vw;
+    font-weight: normal;
+    display: inline-block;
+    height: 4vw;
+}
+
+.benefit-text-font {
+    font-family: "のとさんミディアム";
+    font-size: 1.98vw;
+    border-top: solid 1px #212529;
+    width: 43.138vw;
+    margin-top: 1vw;
+    line-height: 2.7vw;
+    padding-top: 1.2vw;
+}
+
+.benefit-pic-size {
+    width: 30.966vw;
+    height: 20.717vw;
+}
+
+.benefit-pic-des-font {
+    font-family: "のとさんミディアム";
+    font-size: 1.757vw;
+    text-align: center;
+}
+
+.wrapper-benefit-block1 {
+    width: 80.064vw;
+    position: absolute;
+    top: 23.572vw;
+    right: 9.912vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper-benefit-block2 {
+    width: 80.064vw;
+    position: absolute;
+    top: 54.099vw;
+    right: 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper-benefit-block3 {
+    width: 80.064vw;
+    position: absolute;
+    top: 84.627vw;
+    right: 9.912vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper-benefit-block4 {
+    width: 80.064vw;
+    position: absolute;
+    top: 115.154vw;
+    right: 9.912vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#campaing3 {
+    background-image: url("../img/cv.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 59.8828697vw;
+    position: relative;
+}
+
+#wrapper-use {
+    background-image: url("../img/use.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 141.069vw;
+    position: relative;
+}
+
+.use-title {
+    font-size: 4.978vw;
+    font-weight: normal;
+    position: absolute;
+    top: 6.354vw;
+    right: 10.19vw;
+    color: #63977E;
+}
+
+.use-box1 {
+    width: 79.941vw;
+    height: 22.401vw;
+    position: absolute;
+    left: 10vw;
+    bottom: 102.05vw;
+    border-bottom: solid 1px #808080;
+    display: flex;
+    justify-content: space-between;
+}
+
+.use-pic-size {
+    width: 34.992vw;
+    height: 17.496vw;
+    position: absolute;
+    bottom: 3.294vw;
+}
+
+.step-font {
+    font-size: 3.587vw;
+    font-style: italic;
+    margin-left: 5.095vw;
+    margin-top: 0.439vw;
+    text-decoration: underline;
+}
+
+.step-text-font {
+    font-size: 1.977vw;
+    margin-top: 4.048vw;
+    margin-left: 5.095vw;
+    line-height: 1.4;
+}
+
+.border-left {
+    border-left: solid 1px #808080;
+    height: 20.205vw;
+    width: 39.528vw;
+}
+
+.use-box2 {
+    width: 79.941vw;
+    height: 22.401vw;
+    position: absolute;
+    left: 10vw;
+    bottom: 77.526vw;
+    border-bottom: solid 1px #808080;
+    display: flex;
+    justify-content: space-between;
+}
+
+.use-box3 {
+    width: 79.941vw;
+    height: 22.401vw;
+    position: absolute;
+    left: 10vw;
+    bottom: 53.001vw;
+    border-bottom: solid 1px #808080;
+    display: flex;
+    justify-content: space-between;
+}
+
+.use-box4 {
+    width: 79.941vw;
+    height: 22.401vw;
+    position: absolute;
+    left: 10vw;
+    bottom: 28.477vw;
+    border-bottom: solid 1px #808080;
+    display: flex;
+    justify-content: space-between;
+}
+
+.use-box5 {
+    width: 79.941vw;
+    height: 22.401vw;
+    position: absolute;
+    left: 10vw;
+    bottom: 3.915vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#wrapper-QandA {
+    background-image: url("../img/Q_A.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 169.18vw;
+    position: relative;
+}
+
+.QandA-title {
+    font-size: 4.978vw;
+    font-weight: normal;
+    position: absolute;
+    top: 7.525vw;
+    left: 16.778vw;
+    color: #63977E;
+}
+
+#QandA-1 {
+	font-family: "のとさんミディアム";
+	font-size: 1.977vw;
+	position: absolute;
+	left: 10.029vw;
+	bottom: 2.474vw;
+}
+
+#QandA-1 dt {
+    margin-top: 2.804vw;
+}
+
+#QandA-1 dt:before {
+	content: "Q.";
+	font-family: "フィロソファー";
+	font-size: 3.953vw;
+	color: #5D8974;
+	margin-right: 1.26vw;
+}
+
+#QandA-1 dd {
+	margin: 4.9vw 0vw 4.963vw 4.8vw;
+	line-height: 2.928vw;
+	text-indent: -4.7vw;
+}
+
+#QandA-1 dd:before {
+	content: "A.";
+	font-family: "フィロソファー";
+	font-size: 3.953vw;
+	color: #9D3E3E;
+	margin-right: 1.347vw;
+}
+
+.border-bottom {
+	border-bottom: solid 1px #808080;
+	width: 79.941vw;
+}
+
+#campaing4 {
+    background-image: url("../img/cv.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 59.8828697vw;
+    position: relative;
+}
+
+#wrapper-form {
+    width: 79.795vw;
+    margin: 5.051vw 10.102vw 6.662vw 10.102vw;
+    position: relative;
+}
+
+.order-title {
+    text-align: center;
+    font-size: 2.928vw;
+    line-height: 4.5vw;
+    font-weight: normal;
+    width: 79.795vw;
+    height: 5.124vw;
+    background-color: #F1EFED;
+    border-radius: 0.366vw;
+    padding-top: 0.5vw;
+    letter-spacing: 0.26em;
+}
+
+.information {
+    border: solid 1px #808080;
+    border-radius: 0.366vw;
+    font-family: "原真ゴシック";
+     font-size: 1.977vw;
+    width: 79.795vw;
+    padding-top: 5.124vw;
+    padding-bottom: 6.662vw;
+    padding-left: 5.508vw;
+    margin-top: 8.199vw;
+    margin-bottom: 6.442vw;
+}
+
+.information span {
+    background-color: #FF0000;
+    border-radius: 0.44vw;
+    color: white;
+    display: inline-block;
+    width: 4.978vw;
+    text-align: center;
+    margin-right: 1.464vw;
+}
+
+.information input, select {
+    border: solid 1px #D3D3D3;
+    border-radius: 0.44vw;
+}
+
+.input-size1 {
+    width: 23.06vw;
+    height: 4.466vw;
+}
+
+.input-size2 {
+    width: 45.388vw;
+    height: 4.466vw;
+}
+
+.span-space1 {
+    margin-left:11.903vw
+}
+
+.span-space2 {
+    margin-left: 9.927vw;
+}
+
+.span-space3 {
+    margin-left: 5.974vw;
+}
+
+.span-space4 {
+    margin-left: 3.997vw;
+}
+
+.span-space5 {
+    margin-left: 7.95vw;
+}
+
+.information-space1 {
+    margin-bottom: 3.514vw;
+}
+
+.information-space2 {
+    margin-bottom: 7.028vw;
+}
+
+.information-space3 {
+    margin-top: 7.028vw;
+    display: none;
+}
+
+.payment {
+    font-family: "原真ゴシック";
+    font-size: 1.977vw;
+    margin-top: 6.603vw;
+    margin-left: 2.855vw;
+}
+
+.payment input {
+    transform: scale(1.8);
+    margin-right: 0.834vw;
+}
+
+.payment div {
+    margin-bottom: 3.734vw;
+}
+
+.order-purchase-button {
+    margin: 7.452vw 19.912vw 0;
+    width: 39.971vw;
+    height: 8.346vw;
+    background: linear-gradient(#91B3A2, #31A169);
+    font-size: 3.734vw;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 0.512vw;
+    font-family: "原真ゴシックB";
+}
+
+#footer {
+    background-image: url("../img/footer.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 5.198vw;
+    position: relative;
+}
+
+footer #footer_navi ul {
+    list-style: none;
+    text-align: center;
+    padding: 1.537vw 0;
+}
+
+#footer_navi li {
+    display: inline;
+    font-family: "のとさんミディアム";
+    font-size: 1.464vw;
+    color: #212529;
+    padding-left: 0.5vw;
+}
+
+#footer_navi li a {
+    text-decoration: none;
+    color: #212529;
+}
+
+.nav-border-left {
+    border-left: solid 1px #212529;
+}
+
+.pc-nav-border-left {
+    border-left: solid 1px #212529;
+}
+
+
+/*ここからレスポンシブデザイン*/
+
+@media screen and (max-width:1024px) {
+    
+    #main-head {
+        background-image: url("../img/header_sp.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 150vw;
+    }
+    
+    .sp-br {
+        display: block;
+    }
+    
+    #main-pr {
+        font-size: 8.639vw;
+    }
+    
+    #des-pr {
+        font-size: 4vw;
+        color: white;
+        margin-top: 0.611vw;
+    }
+    
+    .container-main {
+        position: absolute;
+        top: 5.638vw;
+        right: 9.25vw;
+    }
+    
+    .sample-pr {
+        position: absolute;
+        top: 106.389vw;
+        left: 50vw;
+        width: 40vw;
+        height: 37.5vw
+    }
+    
+    .des-pr2 {
+        position: absolute;
+        top: 123.194vw;
+        left: 10vw;
+        color: white;
+    }
+    
+    .pc-underline-pr {
+    background-image: linear-gradient(transparent 100%, #B391A2 0);
+    }
+    
+    .pr1 {
+        font-family: "フィロソファー";
+        font-size: 4vw;
+        border-bottom: 1vw solid #B391A2;
+        display: inline-block;
+        height: 4.4vw;
+        width: 8.5vw;
+    }
+    
+    .pr2 {
+        font-family: "のとさんミディアム";
+        font-size: 4vw;
+        border-bottom: 1vw solid #B391A2;
+        display: inline-block;
+        height: 4.9vw;
+    }
+    
+    .pr2-border-none {
+        font-family: "のとさんミディアム";
+        font-size: 4vw;
+        display: inline-block;
+        height: 5.5vw;
+    }
+    
+    .pr3 {
+        font-family: "はんなり明朝";
+        font-size: 5.1vw;
+        border-bottom: 1.2vw solid #B391A2;
+        display: inline-block;
+        height: 4.9vw;
+    }
+    
+    .sp-pr3 {
+        font-family: "はんなり明朝";
+        font-size: 5.1vw;
+        border-bottom: 1.2vw solid #B391A2;
+        display: inline-block;
+        height: 4.9vw;
+    }
+    
+    .pr3-border-none {
+       font-family: "はんなり明朝";
+        font-size: 5.1vw;
+        display: inline-block;
+        height: 5.6vw;
+        position: absolute;
+        top: 12vw;
+        left: 26vw;
+    }
+    
+    #instagram {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    }
+    
+    #instagram-content {
+        width: 79.2vw;
+        margin: 0 auto;
+        padding-top: 6.111vw;
+        padding-bottom: 4.245973vw;
+    }
+    
+    .instagram-logo {
+        width: 70vw;
+        height: 8.889vw;
+        margin: 0 auto;
+    }
+    
+    .insta-p {
+        font-size: 3.5vw;
+        width: 70.278vw;
+        height: 5.278vw;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    .sp-insta-li {
+        display: none;
+    }
+    
+    .insta-li {
+        position: relative;
+    }
+    
+    .insta-li {
+        width: 23.611vw;
+        height: 82.5vw;
+        border: solid 1px #A9A9A9;
+    }
+    
+    .insta-li-sample {
+        width: 100%;
+        height: 23.611vw;
+    }
+    
+    .insta-li-profile {
+        width: 15.08vw;
+        height: 4.68vw;
+        position: absolute;
+        top: 24.8vw;
+        left: 1.667vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .insta-li-icon {
+        width: 4.2vw;
+        height: 4.2vw;
+        
+    }
+    
+    .insta-li-profile-p {
+        font-size: 2.778vw;
+        padding: 0;
+        margin: 0;
+        line-height: 3.3vw;
+    }
+    
+    .insta-li-text {
+        font-size: 1.361vw;
+        width: 20.556vw;
+        height: 42.097vw;
+        position: absolute;
+        top: 33.333vw;
+        left: 1.388vw;
+        line-height: 1.5;
+    }
+    
+    .insta-li-date {
+        font-size: 2.778vw;
+        position: absolute;
+        top: 76vw;
+        right: 2vw;
+    }
+    
+     #campaing {
+        background-image: url("../img/cv_sp.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 80vw;
+        position: relative;
+    }
+    
+    #campaing2 {
+        background-image: url("../img/cv_sp.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 80vw;
+        position: relative;
+    }
+    
+    #campaing3 {
+        background-image: url("../img/cv_sp.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 80vw;
+        position: relative;
+    }
+    
+    #campaing4 {
+        background-image: url("../img/cv_sp.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 80vw;
+        position: relative;
+    }
+    
+    .campaing-ribbon {
+        width: 70vw;
+        position: absolute;
+        top: 3.056vw;
+        left: 15vw;
+    }
+    
+    .sample {
+        width: 30vw;
+        position: absolute;
+        top: 16.389vw;
+        left: 10.278vw;
+    }
+    
+    .campaing-p {
+        position: absolute;
+        top: 24.167vw;
+        left: 47.306vw;
+        font-size: 3vw;
+        border-top: solid 1px #91B3A2;
+        text-align: left;
+        padding-top: 2.806vw;
+        width: 46.183vw;
+    }
+    
+    .campaing-p2 {
+        position: absolute;
+        top: 15.861vw;
+        left: 46.472vw;
+        right: 0;
+        font-size: 4vw;
+    }
+    
+    .campaing-p3 {
+        position: absolute;
+        top: 18.917vw;
+        left: 47.583vw;
+        right: 0;
+        font-size: 2.778vw;
+    }
+    
+    .sp-display-none {
+        display: none;
+    }
+    
+    .pc-display-none {
+        display: block;
+    }
+    
+    .price-normal {
+        font-size: 3.5vw;
+        position: absolute;
+        top: 48.639vw;
+        left: 10.639vw;
+        text-decoration: line-through;
+        font-family: "フィロソファー","のとさんミディアム";
+    }
+    
+    .price-des {
+        font-size: 3.9vw;
+        position: absolute;
+        top: 54.194vw;
+        left: 10.361vw;
+    }
+    
+    .price-discounted {
+        font-size: 15vw;
+        position: absolute;
+        top: 45.806vw;
+        left: 46.194vw;
+        right: 0;
+    }
+    
+    .yen {
+        font-size: 7.5vw;
+    }
+    
+    .tax {
+        font-size: 2.778vw;
+        position: absolute;
+        top: 56.417vw;
+        right: 0vw;
+        left: 86.472vw;
+    }
+    
+    .purchase-button {
+        position: absolute;
+        top: 63.056vw;
+        left: 10vw;
+        width: 80vw;
+        height: 10vw;
+        font-size: 4.5vw;
+        padding-top: 2.5vw;
+        letter-spacing: 1.667vw;
+        border-radius: 2.778vw;
+    }
+    
+    .cancel {
+        font-size: 3.7vw;
+        position: absolute;
+        top: 34.472vw;
+        left: 47.028vw;
+    }
+    
+    .cancel-des {
+        font-size: 2.778vw;
+        position: absolute;
+        top: 39.194vw;
+        left: 47.028vw;
+    }   
+    
+    .wrapper-empathy {
+        background-image: url("../img/empathy_sp.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 81.944vw;
+        position: relative;
+    }
+    
+    .empathy-p {
+        font-size: 5.5vw;
+        position: absolute;
+        top: 4.111vw;
+        left: 9.222vw;
+    }
+    
+    .empathy-ul {
+        position: absolute;
+        top: 19.5vw;
+        left: 10.278vw;
+    }
+    
+    .empathy-li::before {
+        content: "";
+        display: inline-block;
+    	width: 3.611vw;
+    	height: 3.333vw;
+        background-image: url("../img/check.png");
+        background-size: contain;
+        
+    }
+    
+    .empathy-li {
+        font-size: 3.5vw;
+        line-height: 0vw;
+        list-style: none;
+        margin-bottom: 6.361vw;
+    }
+    
+    .empathy-li-else {
+        font-size: 3.5vw;
+        list-style: none;
+        line-height: 4vw;
+    }
+    
+    .wrapper-exhibit1 {
+    background-image: url("../img/exhibit1_sp.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 108.333vw;
+    position: relative;
+    }
+    
+    .exhibit1-p {
+        position: absolute;
+        top: 6vw;
+        left: 8.75vw;
+        font-size: 4.4vw;
+        height: 4.3vw;
+        background-image: linear-gradient(transparent 86%, #B391A2 0);
+    }
+    
+    .wrapper-exhibit1-text {
+        position: absolute;
+        top: 71.111vw;
+        left: 8.889vw;
+    }
+    
+    .exhibit-text {
+        font-size: 3.5vw;
+        padding-bottom: 1.028vw;
+        line-height: 1.5;
+    }
+    
+    .exhibit-sample1 {
+        width: 80vw;
+        height: 53.333vw;
+        position: absolute;
+        top: 16.111vw;
+        left: 8.889vw;
+    }
+    
+    .exhibit-arrow {
+        width: 30vw;
+        height: 10vw;
+        position: absolute;
+        right: 0vw;
+        left: 33.889vw;
+        bottom: -7vw;
+        z-index: 1;
+    }
+    
+    .wrapper-exhibit {
+        position: relative;
+        height: 218vw;
+    }
+    
+    .wrapper-exhibit2 {
+        background-image: url("../img/exhibit2_sp.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 110vw;
+        position: absolute;
+        top: 108.333vw;
+    }
+    
+    .exhibit2-p {
+        position: absolute;
+        top: 8.778vw;
+        left: 16.528vw;
+        font-size: 4.389vw;
+    }
+    
+    .exhibit2-sample2 {
+        width: 80vw;
+        height: 53.333vw;
+        position: absolute;
+        top: 19.722vw;
+        left: 10vw;
+    }
+    
+    .wrapper-exhibit2-text {
+        position: absolute;
+        top: 73.833vw;
+        left: 10.2vw;
+    }
+    
+    #wrapper-benefit {
+    background-image: url("../img/benefit_sp.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 420vw;
+    position: relative;
+    }
+
+    .benefit-title {
+        font-size: 5vw;
+        position: absolute;
+        top: 4.111vw;
+        left: 15.778vw;
+        text-align: center;
+    }
+    
+    .benefit-h2-font {
+        font-family: "はんなり明朝";
+        font-size: 4.4vw;
+        font-weight: normal;
+        display: inline-block;
+        height: 4.444vw;
+    }
+    
+    .benefit-text-font {
+        font-family: "のとさんミディアム";
+        font-size: 3.5vw;
+        border-top: solid 1px #212529;
+        width: 80vw;
+        margin-top: 0.5vw;
+        line-height: 1.5;
+    }
+    
+    .benefit-pic-size {
+        width: 80vw;
+        height: 53.333vw;
+    }
+    
+    .benefit-pic-des-font {
+        font-family: "のとさんミディアム";
+        font-size: 3vw;
+        text-align: center;
+    }
+    
+    .wrapper-benefit-block1 {
+        width: 80vw;
+        position: absolute;
+        top: 24.111vw;
+        right: 0;
+        left: 10vw;
+        display: block;
+    }
+    
+    .wrapper-benefit-block2 {
+        width: 80vw;
+        position: absolute;
+        top: 125.222vw;
+        right: 0;
+        left: 10vw;
+        display: block;
+    }
+    
+    .sp-benefit-block {
+        position: absolute;
+        top: 32.556vw;
+    }
+    
+    .sp-benefit-block2 {
+        margin-top: 9.083vw;
+    }
+    
+    .wrapper-benefit-block3 {
+        width: 80vw;
+        position: absolute;
+        top: 226.333vw;
+        right: 0;
+        left: 10vw;
+        display: block;
+    }
+    
+    .wrapper-benefit-block4 {
+        width: 80vw;
+        position: absolute;
+        top: 322.444vw;
+        right: 0;
+        left: 10vw;
+        display: block;
+    }
+    
+    #wrapper-use {
+        background-image: url("../img/use_sp.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 370vw;
+        position: relative;
+    }
+    
+    .use-title {
+        font-size: 5vw;
+        font-weight: normal;
+        position: absolute;
+        top: 3.278vw;
+        right: auto;
+        left: 9.833vw;
+    }
+    
+    .use-box1 {
+        width: 80vw;
+        height: 66.111vw;
+        position: absolute;
+        left: 10vw;
+        bottom: 290vw;
+        border-bottom: solid 1px #808080;
+        display: block;
+    }
+    
+    .use-pic-size {
+        width: 80vw;
+        height: 40vw;
+        position: absolute;
+        bottom: 16.389vw;
+    }
+    
+    .sp-use-pic-position {
+        position: absolute;
+        bottom: 5.4vw;
+    }
+    
+    .step-font {
+        font-size: 4.4vw;
+        font-style: italic;
+        margin-left: 0vw;
+        margin-top: 0vw;
+        text-decoration: underline;
+    }
+    
+    .step-text-font {
+        font-size: 3.5vw;
+        margin-top: 1.139vw;
+        margin-left: 0vw;
+        position: absolute;
+        top: 50.806vw;
+        line-height: 1.5
+    }
+    
+    .border-left {
+        border-left: solid 0px #808080;
+        height: 20.205vw;
+        width: 39.528vw;
+    }
+    
+    .use-box2 {
+        width: 80vw;
+        height: 66.111vw;
+        position: absolute;
+        left: 10vw;
+        bottom: 221.667vw;
+        border-bottom: solid 1px #808080;
+        display: block;
+    }
+    
+    .use-box3 {
+        width: 80vw;
+        height: 66.111vw;
+        position: absolute;
+        left: 10vw;
+        bottom: 148.333vw;
+        border-bottom: solid 1px #808080;
+        display: block;
+    }
+    
+    .use-box4 {
+        width: 80vw;
+        height: 66.111vw;
+        position: absolute;
+        left: 10vw;
+        bottom: 75.833vw;
+        border-bottom: solid 1px #808080;
+        display: block;
+    }
+    
+    .use-box5 {
+        width: 80vw;
+        height: 56.075vw;
+        position: absolute;
+        left: 10vw;
+        bottom: 11.417vw;
+        display: block;
+    }
+    
+    #wrapper-QandA {
+        background-image: url("../img/Q_A_sp.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 271.944vw;
+        position: relative;
+    }
+    
+    .QandA-title {
+        font-size: 5vw;
+        position: absolute;
+        top: 3.833vw;
+        left: 16.222vw;
+    }
+    
+    #QandA-1 {
+    	font-size: 3.5vw;
+    	position: absolute;
+    	left: 10.194vw;
+    	bottom: auto;
+    	top: 10.044vw;
+    }
+    
+    #QandA-1 dt {
+        margin-top: 4.417vw;
+        margin-left: 8.2vw;
+        text-indent: -6.6vw;
+    }
+    
+    #QandA-1 dt:before {
+    	font-size: 6vw;
+    	margin-right: 1.26vw;
+    }
+    
+    #QandA-1 dd {
+    	margin: 2.5vw 0vw 5vw 7.972vw;
+    	line-height: 5.5vw;
+    	text-indent: -6.2vw;
+    }
+    
+    #QandA-1 dd:before {
+    	font-size: 6vw;
+    	margin-right: 1.347vw;
+    }
+    
+    .border-bottom {
+    	border-bottom: solid 1px #808080;
+    	width: 79.941vw;
+    }
+    
+    #wrapper-form {
+        width: 80vw;
+        margin: 5.556vw 10vw 8.333vw 10vw;
+        position: relative;
+    }
+    
+    .order-title {
+        font-size: 4.5vw;
+        line-height: 6.5vw;
+        font-weight: normal;
+        letter-spacing: 0.26em;
+        width: 100%;
+        height: 6.944vw;
+        border-radius: 2.639vw;
+    }
+    
+    .information {
+        border: solid 1px #808080;
+        border-radius: 2.639vw;
+        font-size: 3.5vw;
+        width: 80vw;
+        padding-top: 4.222vw;
+        padding-bottom: 8.222vw;
+        padding-left: 5vw;
+        margin-top: 9.444vw;
+        margin-bottom: 12.222vw;
+    }
+    
+    .information span {
+        background-color: #FF0000;
+        border-radius: 1.111vw;
+        width: 7vw;
+        text-align: center;
+        margin-right: 0vw;
+        font-size: 3vw;
+    }
+    
+    .information input, select {
+        border: solid 1px #D3D3D3;
+        border-radius: 1.111vw;
+    }
+    
+    .input-size1 {
+        width: 69.444vw;
+        height: 6.5vw;
+        margin-top: 0.778vw;
+    }
+    
+    .input-size2 {
+        width: 69.444vw;
+        height: 6.5vw;
+        margin-top: 0.778vw;
+    }
+    
+    .span-space1 {
+        margin-left:0.833vw
+    }
+    
+    .span-space2 {
+        margin-left: 0.833vw;
+    }
+    
+    .span-space3 {
+        margin-left: 0.833vw;
+    }
+    
+    .span-space4 {
+        margin-left: 0.833vw;
+    }
+    
+    .span-space5 {
+        margin-left: 0.833vw;
+    }
+    
+    .information-space1 {
+        margin-bottom: 3vw;
+    }
+    
+    .information-space2 {
+        margin-bottom: 10.222vw;
+    }
+    
+    .information-space3 {
+    margin-top: 10.222vw;
+    }
+    
+    .payment {
+        font-family: "原真ゴシック";
+        font-size: 3.5vw;
+        margin-top: 8.944vw;
+        margin-left: 10vw;
+    }
+    
+    .payment input {
+        transform: scale(1.3);
+        margin-right: 1.667vw;
+    }
+    
+    .payment div {
+        margin-bottom: 5vw;
+    }
+    
+    .order-purchase-button {
+        /*position: absolute;*/
+        margin: 10.5vw 20vw 0;
+        width: 40vw;
+        height: 8.333vw;
+        font-size: 4.5vw;
+        border-radius: 2.639vw;
+    }
+    
+    #footer {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    
+    footer #footer_navi ul {
+        padding: 0.537vw 0;
+        width: 87vw;
+        margin-left: 7vw;
+        display: inline-block;
+    }
+    
+    #footer_navi li {
+        font-size: 3vw;
+        padding-left: 1.2vw;
+        padding-right: 0vw;
+        height: 4.444vw;
+    }
+    
+    .nav-border-left {
+        border-left: solid 1px #212529;
+    }
+    
+    .pc-nav-border-left {
+    border-left: solid 0px #212529;
+    }
+    
+    .sp-margin-right {
+        margin-right: 2vw;
+    }
+}
+
+/*フェードインアニメ*/
+/*左から右にフェードイン*/
+.left-to-right {
+  opacity: 0.1;
+  transform: translateX(-20px);
+  transition: all 1s;
+}
+.left-to-right.scrollin {
+  opacity: 1;
+  transform: translate(0);
+}
+
+/*右から左にフェードイン*/
+.right-to-left {
+  opacity: 0.1;
+  transform: translateX(20px);
+  transition: all 1s;
+}
+.right-to-left.scrollin {
+  opacity: 1;
+  transform: translate(0);
+}
+
+/*下から上にフェードイン*/
+.down-to-top {
+  opacity: 0.1;
+  transform: translateY(20px);
+  transition: all 1s;
+}
+.down-to-top.scrollin {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.form_has_error {
+  color: #f00;
+}
