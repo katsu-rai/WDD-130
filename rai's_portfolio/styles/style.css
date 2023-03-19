@@ -142,3 +142,8 @@ footer a:hover {
 a:visited {
   color: #2ec4b6;
 }
+
+#homepage {
+  height: 100vh;
+  background-color: #2ec4b6;
+}
