@@ -168,7 +168,7 @@ h2 {
 }
 
 .about-me-body span {
-  color: #ffbf69;
+  color: black;
 }
 
 .rai_portrait {
@@ -269,6 +269,10 @@ h2 {
 /* ----------work---------- */
 .work1 {
   width: 45%;
+}
+
+.wrapper-work1 {
+  display: inline-block;
 }
 
 .wrapper-work1 {
