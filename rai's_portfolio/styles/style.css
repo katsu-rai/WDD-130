@@ -148,7 +148,8 @@ a:visited {
   background-color: #2ec4b6;
 }
 
-/* ---about */
+/* ----------about---------- */
+
 h2 {
   margin: 0;
   color: white;
@@ -263,4 +264,60 @@ h2 {
   .modal-content {
     width: 100%;
   }
+}
+
+/* ----------work---------- */
+.work1 {
+  width: 45%;
+}
+
+.wrapper-work1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 0 50px;
+}
+
+.wrapper-work1 p {
+  height: 100%;
+  width: 45%;
+  line-height: 2em;
+}
+
+.work-ex {
+  font-size: 30px;
+  color: white;
+}
+
+.job-title {
+  font-size: 35px;
+  color: white;
+  padding-left: 50px;
+}
+
+.date {
+  color: white;
+  font-size: 25px;
+  margin-right: 50px;
+}
+
+.wrapper-job-title-date {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.job-img {
+  width: 30%;
+  height: 300px;
+  border-radius: 5%;
+}
+
+.wrapper-job {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px 0 50px;
+}
+
+.wrapper-job p {
+  width: 60%;
 }
