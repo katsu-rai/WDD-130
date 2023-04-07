@@ -7,10 +7,11 @@ Fonts are separated by a | */
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #2ec4b6;
-  --secondary-color: #cbf3f0;
-  --accent1-color: white;
+  --secondary-color: #fff:
+  --accent1-color: #000;
   --accent2-color: #ffbf69;
   /* #FF9F1C */
+  /* #cbf3f0; */
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Unbounded";
@@ -24,8 +25,8 @@ Fonts are separated by a | */
   --paragraph-background-color: #2ec4b6;
   --nav-link-color: #2ec4b6;
   --nav-background-color: white;
-  --nav-hover-link-color: #cbf3f0;
-  --nav-hover-background-color: #2ec4b6;
+  --nav-hover-link-color: #ffbf69;;
+  --nav-hover-background-color: #fff;
 }
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
@@ -95,7 +96,7 @@ p {
   background-color: var(--secondary-color);
 }
 .accent1 {
-  background-color: var(--accent1-color);
+  background-color: black;
 }
 .accent2 {
   background-color: var(--accent2-color);
